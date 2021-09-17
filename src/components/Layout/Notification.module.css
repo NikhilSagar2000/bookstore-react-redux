@@ -25,3 +25,17 @@
 .success {
   background-color: #1ad18b;
 }
+
+
+@media (max-width: 600px){
+  .notification{
+    padding: 0.3rem 20px;
+  }
+}
+@media (max-width: 350px){
+  .notification{
+    padding: 0.3rem 10px;
+    font-size: 0.8rem;
+  }
+
+}

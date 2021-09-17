@@ -15,7 +15,7 @@ const CartButton = (props) => {
     <Fragment>
       {!isCartShown && (
         <button className={classes.button} onClick={toggleCartHandler}>
-          <span className={classes['cart-logo']}>Cart</span>
+          <span>Cart</span>
           <span className={classes.badge}>{cartItemsQuantity}</span>
         </button>
       )}
