@@ -1,0 +1,42 @@
+.button {
+  background-color: transparent;
+  /* border-color: #1ad1b9; */
+  border: 3px solid #1ad1b9;
+  color: #1ad1b9;
+}
+
+.button:hover {
+  color: white;
+  background-color: #1ad1b9;
+}
+.button:active {
+  color: white;
+  background-color: #0fffdf;
+}
+
+.button span {
+  margin: 0 0.5rem;
+}
+.button .cart-logo{
+  color: #1ad1b9;
+}
+
+.badge {
+  background-color: #1ad1b9;
+  border-radius: 30px;
+  padding: 0.15rem 1.25rem;
+  color: #1d1d1d;
+}
+
+.button:hover .badge{
+  background-color: #fff;
+}
+
+@media (max-width: 600px){
+.button span {
+  margin: 0 0.2rem;
+}
+.badge {
+  padding: 0.15rem .75rem;
+}
+}
